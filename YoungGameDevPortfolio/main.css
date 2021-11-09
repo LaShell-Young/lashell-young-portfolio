@@ -1,0 +1,98 @@
+﻿body {
+    color: black;
+    background-image: linear-gradient(to right, #654ea3, #eaafc8);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+/* header css*/
+header {
+    border-style: none;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+img {
+    border-radius: 5px;
+}
+#header-container {
+    display: grid;
+    grid-gap: 10px;
+}
+.header-item1 {
+    padding: 10px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.header-item2 {
+    padding: 10px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+/* portfolio css*/
+.portfolio-item {
+    border-style: solid;
+    padding: 2%;
+    margin: 4%;
+    display: grid;
+    grid-gap: 10px;
+}
+.portfolio-img {
+    padding: 5px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.portfolio-text {
+    padding: 10px;
+    font-size: large;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+/*nav bar css*/
+nav {
+    border-style: solid;
+    border-radius: 5px;
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7209b7;
+}
+.active {
+    background-color: #560bad;
+}
+nav li {
+    float: left;
+}
+nav p {
+    display: block;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: #000814;
+}
+nav a {
+    display: block;
+    padding: 16px;
+    color: #000814;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #480ca8;
+}
