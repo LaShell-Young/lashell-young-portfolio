@@ -8,12 +8,21 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
-    <link rel="stylesheet" href="./main.css">
     <style>
         body, h1, h2, h3, h4, h5, h6 {
             font-family: "Montserrat", sans-serif
         }
 
+        .portfolio-item {
+            border-style: solid;
+            padding: 2%;
+            margin: 4%;
+            display: grid;
+            grid-gap: 10px;
+        }
+        img {
+            border-radius: 5px;
+        }
         nav p {
             color: white;
         }
@@ -88,7 +97,7 @@
         <div class="portfolio-item">
             <div class="w3-row">
                 <div class="w3-col w3-container s3">
-                    <img src="./images/FallingBallThumbnail copy.png" class="w3-round" alt="game thumbnail" width="400" height="200" />
+                    <img src="./images/FallingBallThumbnail copy.png" class="w3-image" alt="game thumbnail" width="400" height="200" />
                 </div>
                 <div class="w3-col w3-container s9">
                     <p><a href="https://play.unity.com/mg/other/floorislavabuild-27"> Falling Ball</a></p>
@@ -102,22 +111,24 @@
             </div>
         </div>
         <div class="portfolio-item">
-            <div class="portfolio-img">
-                <img src="./images/Maze Explore Thumbnail copy.png" class="w3-round" alt="game thumbnail" width="400" height="200" />
-            </div>
-            <div class="portfolio-text">
-                <p><a href="https://play.unity.com/mg/other/maze-explore-1"> Maze Explore</a></p>
-                <p>
-                    Description: A beginner game where the player controls a ball and traverses a maze.
-                </p>
-                <p>
-                    Difficulty: Beginner
-                </p>
+            <div class="w3-row">
+                <div class="w3-col w3-container s3">
+                    <img src="./images/Maze Explore Thumbnail copy.png" class="w3-image" alt="game thumbnail" width="400" height="200" />
+                </div>
+                <div class="w3-col w3-container s9">
+                    <p><a href="https://play.unity.com/mg/other/maze-explore-1"> Maze Explore</a></p>
+                    <p>
+                        Description: A beginner game where the player controls a ball and traverses a maze.
+                    </p>
+                    <p>
+                        Difficulty: Beginner
+                    </p>
+                </div>
             </div>
         </div>
 
-        <!-- End Portfolio Section -->
-    </div>
+            <!-- End Portfolio Section -->
+        </div>
 
         <!-- Contact Section -->
         <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
