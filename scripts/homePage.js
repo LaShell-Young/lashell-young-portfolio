@@ -1,4 +1,5 @@
-const images = ['./images/lashell2021Grad.JPG', './images/lashell-pic2.png', './images/lashell-pic3.png'];
+﻿// array of images
+const images = ['./images/lashell2021Grad.JPG', './images/lashell_pic2.PNG', './images/lashell_pic3.PNG'];
 var index = 1;
 
 function changeImg() {
