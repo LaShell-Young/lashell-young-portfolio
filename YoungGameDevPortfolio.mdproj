@@ -11,6 +11,13 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="index.html" />
-    <None Include="main.css" />
+    <None Include="portfolio.html" />
+    <None Include="package.json" />
+    <None Include="vite.config.js" />
+    <None Include="src\App.jsx" />
+    <None Include="src\main.jsx" />
+    <None Include="src\portfolio.jsx" />
+    <None Include="src\styles.css" />
+    <None Include="src\theme.js" />
   </ItemGroup>
 </Project>
