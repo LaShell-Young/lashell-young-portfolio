@@ -22,7 +22,7 @@ export default function SiteHeader({ page }) {
           </Link>
           <Stack component="nav" direction="row" spacing={{ xs: 0.25, sm: 1 }} aria-label="Main navigation">
             <Button
-              href="./index.html#about"
+              href={page === "home" ? "#about" : "./index.html#about"}
               color="inherit"
               className={page === "home" ? "nav-link active" : "nav-link"}
             >
@@ -35,7 +35,11 @@ export default function SiteHeader({ page }) {
             >
               Projects
             </Button>
-            <Button href="./index.html#contactSection" color="inherit" className="nav-link">
+            <Button
+              href={page === "home" ? "#contactSection" : "./index.html#contactSection"}
+              color="inherit"
+              className="nav-link"
+            >
               Contact
             </Button>
           </Stack>
