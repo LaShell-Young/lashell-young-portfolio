@@ -1,75 +1,23 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <title>PORTFOLIO|lashell-young</title>
-    <script type="module" src="./scripts/portfolioScript.js" ></script>
-    <script type="module" src="./scripts/portItem.js" ></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body class="w3-flat-wet-asphalt">
-
-    <!-- Icon Bar (Sidebar - hidden on small screens) -->
-    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-        <a href="./index.html" class="w3-bar-item w3-button w3-padding-large w3-black">
-            <i class="fa fa-home w3-xxlarge"></i>
-            <p>HOME</p>
-        </a>
-        <a href="#contactSection" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-            <i class="fa fa-envelope w3-xxlarge"></i>
-            <p>CONTACT</p>
-        </a>
-    </nav>
-
-    <!-- Navbar on small screens (Hidden on medium and large screens) -->
-    <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-        <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-            <a href="./index.html" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
-            <a href="#contactSection" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
-        </div>
-    </div>
-
-    <!-- Page Content -->
-    <div class="w3-padding-large" id="main">
-        <!-- Header/Home -->
-        <header class="w3-container w3-padding-32 w3-center w3-black" id="home" style="border-radius: 5px">
-            <h1 class="w3-jumbo">My Portfolio</h1>
-            <p>All the projects I've made in Unity so far.</p>
-        </header>
-
-        <!-- Portfolio Section -->
-        <div id="item1" class="portfolio-item" onload="updatePorfolio()"></div>
-        <div id="item2" class="portfolio-item" onload="updatePortfolio()"></div>
-
-            <!-- End Portfolio Section -->
-
-        <!-- Contact Section -->
-        <div class="w3-padding-64 w3-content w3-text-grey" id="contactSection">
-            <h2 class="w3-text-light-grey">Contact Me</h2>
-            <hr style="width:200px" class="w3-opacity">
-
-            <div class="w3-section">
-                <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Texas, US</p>
-                <p><i class="fa fa-linkedin-square fa-fw w3-text-white w3-xxlarge w3-margin-right"></i><a href="https://www.linkedin.com/in/lashell-young"> Check out my LinkedIn</a></p>
-                <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i>lashellyoung15@gmail.com</p>
-            </div><br>
-
-            <!-- End Contact Section -->
-        </div>
-
-        <!-- Footer -->
-        <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-            <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-            <!-- End footer -->
-        </footer>
-
-        <!-- END PAGE CONTENT -->
-    </div>
-
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore game development projects by LaShell Young."
+    />
+    <meta name="theme-color" content="#10141d" />
+    <title>Projects | LaShell Young</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/portfolio.jsx"></script>
+  </body>
 </html>
