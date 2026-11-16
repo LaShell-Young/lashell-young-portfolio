@@ -83,7 +83,7 @@ export default function HomePage() {
           <Box className="portrait-caption">
             <Typography fontWeight={700}>LaShell Young</Typography>
             <Typography variant="body2" color="text.secondary">
-              Developer in progress
+              Software Developer | Full-stack Engineer
             </Typography>
           </Box>
         </Box>
