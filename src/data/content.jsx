@@ -8,7 +8,7 @@ import {
 import fallingBallImage from "../../images/FallingBallThumbnail.png";
 import mazeExploreImage from "../../images/MazeExploreThumbnail.png";
 import seashellSelectionsImage from "../../images/seashellSelectionsThumbnail.png";
-import choiceArciveImage from "../../images/ChoiceArchiveThumbnail.png";
+import choiceArciveImage from "../../images/choiceArchiveThumbnail.png";
 
 export const projects = [
   {
