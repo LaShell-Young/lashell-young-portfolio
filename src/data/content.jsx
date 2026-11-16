@@ -7,13 +7,23 @@ import {
 } from "@mui/icons-material";
 import fallingBallImage from "../../images/FallingBallThumbnail.png";
 import mazeExploreImage from "../../images/MazeExploreThumbnail.png";
+import seashellSelectionsImage from "../../images/seashellSelectionsThumbnail.png";
+import choiceArciveImage from "../../images/ChoiceArchiveThumbnail.png";
 
 export const projects = [
+  {
+    name: "Interactive UI",
+    description: "A web application that allows users to explore a variety of interactive UI components whos data is fetched from open-source data APIs.",
+    category: "Web Development",
+    image: choiceArciveImage,
+    imageAlt: "Interactive UI project thumbnail",
+    url: "https://lashell-young.github.io/choice-archive",
+  },
   {
     name: "Entertainment Catalog",
     description: "A web application that allows users to browse and search a select list of entertainment options (movies, TV shows, and fun activities).",
     category: "Web Development",
-    image: null,
+    image: seashellSelectionsImage,
     imageAlt: "Entertainment Catalog project thumbnail",
     url: "https://lashell-young.github.io/seashell-selections-fe"
   },
