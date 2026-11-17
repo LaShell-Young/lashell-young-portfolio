@@ -5,8 +5,6 @@ import {
   StorageRounded,
   WorkOutlineRounded,
 } from "@mui/icons-material";
-import fallingBallImage from "../../images/FallingBallThumbnail.png";
-import mazeExploreImage from "../../images/MazeExploreThumbnail.png";
 import seashellSelectionsImage from "../../images/seashellSelectionsThumbnail.png";
 import choiceArciveImage from "../../images/choiceArchiveThumbnail.png";
 
@@ -26,23 +24,7 @@ export const projects = [
     image: seashellSelectionsImage,
     imageAlt: "Entertainment Catalog project thumbnail",
     url: "https://lashell-young.github.io/seashell-selections-fe"
-  },
-  {
-    name: "Falling Ball",
-    description: "A simple animation of a ball falling down a course.",
-    category: "Hobby Project",
-    image: fallingBallImage,
-    imageAlt: "Falling Ball game project thumbnail",
-    url: "https://play.unity.com/mg/other/floorislavabuild-27",
-  },
-  {
-    name: "Maze Explore",
-    description: "A game where the player controls a ball and traverses a maze.",
-    category: "Hobby Project",
-    image: mazeExploreImage,
-    imageAlt: "Maze Explore game project thumbnail",
-    url: "https://play.unity.com/mg/other/maze-explore-1",
-  },
+  }
 ];
 
 export const skillGroups = [
